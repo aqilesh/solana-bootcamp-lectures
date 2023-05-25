@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_solana_bootcamp_lectures_1684989201282-pr-trigger-input-set
+  identifier: Build_solana_bootcamp_lectures_1684989201282prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Test
+  pipeline:
+    identifier: Build_solana_bootcamp_lectures_1684989201282
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
